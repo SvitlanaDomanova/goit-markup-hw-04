@@ -208,6 +208,9 @@ ul {
 .hero_list {
     min-width: 270px;
     align-content: flex-start;
+   
+   
+
 }
 .hero_catalogue {
     margin-bottom: 10px;
@@ -311,6 +314,7 @@ ul {
 }
 .footer_adress {
     padding-left: 0;
+    min-width: 231px;
 }
 .footer_container {
     padding-top: 60px;
@@ -468,15 +472,102 @@ img {
   
 }
 .features_icon {
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
-/*--------------------------Header section----------------------------*/
-/*Main section*/
-/*Teams section*/
- /*Clients section*/
-/*Footer section*/
-        
+.smartphone_icon {
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    gap: 10px;
+}
+.email_icon {
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    gap: 10px;
+}
+.social_network {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    background-color: #FFFFFF;
+}
+.social_link:hover .socials_icon {fill: #FFFFFF;
+}
+.icon_soc:hover .social_link {fill: #FFFFFF;
+    border-radius: 50%;
+    background-color:#2196F3;
+}
+.socials_icon {fill: #AFB1B8;
+}
+.icon_features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+.icon_features_fon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.partners_fon {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.partners_fon:hover .socials_icon {
+    fill: #2196F3; 
+    width: 170px;
+    height: 92px;
+    border: 1px solid #2196F3; 
+    border-radius: 3px;
+}
+.footer_socials {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.container_socials {
+    display: flex;
+    margin-left: 301px;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
