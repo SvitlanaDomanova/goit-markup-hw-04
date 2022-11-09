@@ -371,7 +371,6 @@ img {
 }
 
 .btn_prtfl {
-
     padding-bottom: 6px;
     padding-top: 6px;
     padding-left: 22px;
@@ -479,15 +478,17 @@ img {
 }
 
 .smartphone_icon {
+    fill: currentColor;
     display: flex;
     justify-content: center;
-    align-items: centre;
+    align-items: center;
     gap: 10px;
 }
 .email_icon {
+    fill: currentColor;
     display: flex;
     justify-content: center;
-    align-items: centre;
+    align-items: center;
     gap: 10px;
 }
 .social_network {
@@ -520,7 +521,7 @@ img {
     align-items: center;
     padding-left: 0px;
 }
-.icon_features_fon{
+.icon_features_fon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -561,10 +562,57 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: flex;
+    margin-bottom: 20px;
 
 }
 .container_socials {
-    display: flex;
+    display:inline-flex;
     align-items:baseline;
+    justify-content: center;
+}
+.container_socials_network {
     margin-left: 70px;
+    margin-top: 12px;
+}
+.socials_icon_footer {
+    fill: #FFFFFF;
+}
+
+.social_link_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%; 
+    background-color: rgba(255,255,255,0.1);
+}
+
+.social_link_footer:hover .socials_icon_footer {fill: #FFFFFF;
+}
+.icon_soc:hover .social_link_footer {fill: #FFFFFF;
+    border-radius: 50%;
+    background-color:#2196F3;
+}
+
+.footer_socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_section_team {
+    background-color: #AFB1B8;
+}
+.container_team_name {
+    background-color: #FFFFFF;
+}
+.container_team_name {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container_work {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+.btn_prtfl {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
 }
