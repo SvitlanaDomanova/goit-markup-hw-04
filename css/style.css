@@ -565,9 +565,6 @@ img {
 }
 .container_socials {
     display: flex;
-    margin-left: 301px;
-    text-align: center;
-    align-items: center;
-    margin-top: 0;
-    padding-top: 0;
+    align-items:baseline;
+    margin-left: 70px;
 }
